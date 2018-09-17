@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rolling Dice</title>
+	<!-- Coding practice to learn how to use the Math.random() JavaScript built-in function to generate random numbers -->
+</head>
+<body>
+<script>
+
+		 function rollDice(numSides) {
+		 	var luckyNum;
+		 	return Math.floor(Math.random() * numSides) + 1;}
+			
+		 	for (var i = 0; i < 20; i++) {
+				console.log(rollDice());
+		}
+
+</script>
+<!--
+<button id="luck" onclick="rollDice()">Roll a Dice</button>
+ -->
+</body>
+</html>
